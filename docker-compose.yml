@@ -1,0 +1,14 @@
+version: "2"
+services:
+  mongoDb:
+    container_name: mongoDb
+    image: mongo:3.6
+    command: mongod
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/data/logs
+    volumes:
+      - /Users/pradeepdesai/data/mongodb/db:/data/db
+      - /Users/pradeepdesai/data/mongodb/logs:/data/logs
+    ports:
+      - 27017:27017
