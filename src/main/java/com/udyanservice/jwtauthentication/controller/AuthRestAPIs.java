@@ -1,8 +1,8 @@
 package com.udyanservice.jwtauthentication.controller;
 
-import com.udyanservice.jwtauthentication.message.request.LoginRequest;
-import com.udyanservice.jwtauthentication.message.request.SignUpRequest;
-import com.udyanservice.jwtauthentication.message.response.JwtResponse;
+import com.udyanservice.jwtauthentication.requestandResponce.request.LoginRequest;
+import com.udyanservice.jwtauthentication.requestandResponce.request.SignUpRequest;
+import com.udyanservice.jwtauthentication.requestandResponce.response.JwtResponse;
 import com.udyanservice.jwtauthentication.model.Role;
 import com.udyanservice.jwtauthentication.model.RoleName;
 import com.udyanservice.jwtauthentication.model.User;
